@@ -1,1 +1,8 @@
-@import 'tailwindcss'
+@import "tailwindcss";
+@import "./font.css";
+
+@theme {
+    --font-danaRegular: "DanaRegular";
+    --font-danaMedium: "DanaMedium";
+    --font-danaDemiBold: "DanaDemiBold";
+}
