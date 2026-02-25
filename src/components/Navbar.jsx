@@ -9,7 +9,7 @@ const Navbar = () => {
         <>
             <header
                 className="sticky top-0 bg-gray-900/95 backdrop-blur-md text-wihte shadow-2xl
-            shadow-gray-950/70 border-b border-orange-800"
+            shadow-gray-950/70 border-b border-orange-800 z-10"
             >
                 <div className="container mx-auto p-4 flex items-center justify-between">
                     <Link to={"/"}>

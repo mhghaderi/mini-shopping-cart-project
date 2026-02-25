@@ -16,9 +16,9 @@ const ProductList = () => {
                     محصولات فروشگاه ما ({product.length})
                 </h2>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     {product.map((item, index) => (
-                        <ProductCart />
+                        <ProductCart key={index} data={item} />
                     ))}
                 </div>
             </div>
